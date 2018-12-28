@@ -2,4 +2,4 @@ var fs = require('fs');
 
 var readme = fs.readFileSync('readme.txt', 'utf16');
 
-console.log(readme);
+fs.writeFileSync('writeMe.txt', 'readme');
